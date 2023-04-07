@@ -10,7 +10,7 @@ class Solution {
                 Long.parseLong(s);
                 return true;
             }
-                catch (NumberFormatException ex){
+                catch (NumberFormatException e){
                 return false;
             }
         }
