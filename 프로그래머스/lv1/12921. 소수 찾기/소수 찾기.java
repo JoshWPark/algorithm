@@ -7,7 +7,7 @@ class Solution {
         prime[0] = false;
         prime[1] = false;
         
-        for(int i =2; i*i<=n; i++){
+        for(int i =2; i<=Math.sqrt(n); i++){
             if(prime[i]){
                 for(int j = i*i; j<=n; j+=i){
                     prime[j]=false;
