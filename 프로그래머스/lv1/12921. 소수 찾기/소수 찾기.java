@@ -6,7 +6,7 @@ class Solution {
         Arrays.fill(prime,true);
         prime[0] = false;
         prime[1] = false;
-        
+        // System.out.print(Math.sqrt(n));
         for(int i =2; i<=Math.sqrt(n); i++){
             if(prime[i]){
                 for(int j = i*i; j<=n; j+=i){
