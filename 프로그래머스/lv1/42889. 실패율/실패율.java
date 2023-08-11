@@ -25,7 +25,6 @@ class Solution {
                     stageReachedTotal[j]++;
                 }
             }
-            
         }   
         System.out.println(Arrays.toString(stageReached));
         System.out.println(Arrays.toString(stageReachedTotal));
